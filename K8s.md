@@ -53,3 +53,17 @@ kubectl top The kubectl top command returns current CPU and memory usage for a c
 
 
 Ref: https://www.youtube.com/watch?v=X48VuDVv0do&t=4581s
+
+
+
+Resources that are not bound with name space: kubectl api-resources --namespaced=false
+
+Resources that are bound with namespace: kubectl api-resources --namespaced=true
+
+Installing cubectx: brew install kubectx
+
+Kunenetes Ingress:-
+
+Intall ingress:
+minikube addons enable ingress
+
